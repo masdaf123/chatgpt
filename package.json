@@ -1,7 +1,6 @@
 {
   "name": "chatgpt-account-creator",
   "version": "1.0.0",
-  "description": "ChatGPT Account Creator with Telegram Notification",
   "type": "module",
   "main": "chatgpt_account_creator.js",
   "scripts": {
@@ -15,6 +14,6 @@
     "@faker-js/faker": "^10.1.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
