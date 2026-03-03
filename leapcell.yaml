@@ -1,10 +1,10 @@
 service: chatgpt-creator
 runtime: nodejs20
 install: npm install
-entry: npm start
+entry: node chatgpt_account_creator.js
 env:
   - TELEGRAM_TOKEN: "7331285038:AAFmxRU682waFKqAJkV6Lj45nW6kWni8cFk"
   - TELEGRAM_CHAT_ID: "8126039795"
   - PASSWORD: "Jembut.789011"
-  - HEADLESS: "true"
   - NUM_ACCOUNTS: "1"
+  - HEADLESS: "true"
